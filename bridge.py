@@ -7,7 +7,7 @@ import requests
 
 app = Flask(__name__)
 DATABASE = 'messages.db'
-DEEPSEEK_API_KEY = sk-d53a42e144334d1bb670ef5a5c4ef7c6  # <-- POSA LA TEVA CLAU AQUÍ
+DEEPSEEK_API_KEY = "sk-d53a42e144334d1bb670ef5a5c4ef7c6"  # <-- POSA LA TEVA CLAU AQUÍ
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
 
 def init_db():
